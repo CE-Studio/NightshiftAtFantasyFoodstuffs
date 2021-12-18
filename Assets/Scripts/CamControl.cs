@@ -79,7 +79,7 @@ public class CamControl : MonoBehaviour
         Cam1A.enabled = true;
         Cam1A.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
 
-        mapAnim.SetInteger("ActiveCam", 1);
+        mapAnim.Play("Map 1A", 0, 0);
     }
 
     public void SwapTo1B()
@@ -88,7 +88,7 @@ public class CamControl : MonoBehaviour
         Cam1B.enabled = true;
         Cam1B.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
 
-        mapAnim.SetInteger("ActiveCam", 2);
+        mapAnim.Play("Map 1B", 0, 0);
     }
 
     public void SwapTo2()
@@ -97,7 +97,7 @@ public class CamControl : MonoBehaviour
         Cam2.enabled = true;
         Cam2.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
 
-        mapAnim.SetInteger("ActiveCam", 3);
+        mapAnim.Play("Map 2", 0, 0);
     }
 
     public void SwapTo3A()
@@ -106,7 +106,7 @@ public class CamControl : MonoBehaviour
         Cam3A.enabled = true;
         Cam3A.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
 
-        mapAnim.SetInteger("ActiveCam", 4);
+        mapAnim.Play("Map 3A", 0, 0);
     }
 
     public void SwapTo3B()
@@ -115,7 +115,7 @@ public class CamControl : MonoBehaviour
         Cam3B.enabled = true;
         Cam3B.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
 
-        mapAnim.SetInteger("ActiveCam", 5);
+        mapAnim.Play("Map 3B", 0, 0);
     }
 
     public void SwapTo4()
@@ -124,7 +124,7 @@ public class CamControl : MonoBehaviour
         Cam4.enabled = true;
         Cam4.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
 
-        mapAnim.SetInteger("ActiveCam", 6);
+        mapAnim.Play("Map 4", 0, 0);
     }
 
     public void SwapTo5()
@@ -133,7 +133,7 @@ public class CamControl : MonoBehaviour
         Cam5.enabled = true;
         Cam5.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
 
-        mapAnim.SetInteger("ActiveCam", 7);
+        mapAnim.Play("Map 5", 0, 0);
     }
 
     public void SwapTo6A()
@@ -142,7 +142,7 @@ public class CamControl : MonoBehaviour
         Cam6A.enabled = true;
         Cam6A.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
 
-        mapAnim.SetInteger("ActiveCam", 8);
+        mapAnim.Play("Map 6A", 0, 0);
     }
 
     public void SwapTo6B()
@@ -151,7 +151,7 @@ public class CamControl : MonoBehaviour
         Cam6B.enabled = true;
         Cam6B.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
 
-        mapAnim.SetInteger("ActiveCam", 9);
+        mapAnim.Play("Map 6B", 0, 0);
     }
 
     public void SwapTo6C()
@@ -160,7 +160,7 @@ public class CamControl : MonoBehaviour
         Cam6C.enabled = true;
         Cam6C.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
 
-        mapAnim.SetInteger("ActiveCam", 10);
+        mapAnim.Play("Map 6C", 0, 0);
     }
 
     public void SwapTo7()
@@ -169,7 +169,7 @@ public class CamControl : MonoBehaviour
         Cam7.enabled = true;
         Cam7.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
 
-        mapAnim.SetInteger("ActiveCam", 11);
+        mapAnim.Play("Map 7", 0, 0);
     }
 
     public void SwapTo8()
@@ -178,7 +178,7 @@ public class CamControl : MonoBehaviour
         Cam8.enabled = true;
         Cam8.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
 
-        mapAnim.SetInteger("ActiveCam", 12);
+        mapAnim.Play("Map 8", 0, 0);
     }
 
     public void SwapTo9()
@@ -187,6 +187,6 @@ public class CamControl : MonoBehaviour
         Cam9.enabled = true;
         Cam9.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
 
-        mapAnim.SetInteger("ActiveCam", 13);
+        mapAnim.Play("Map 9", 0, 0);
     }
 }

@@ -30,7 +30,7 @@ public class SitAtOfficeDesk : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("e")&& isSitting == "Yes")
+        if (Input.GetKeyDown("e") && isSitting == "Yes" && Vector3.Distance(transform.position, player.transform.position) < 1)
         {
             player.GetComponent<MovePlayer>().xRotation = 0f;
             startPos = player.transform.position;
